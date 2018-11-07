@@ -14,6 +14,10 @@
 		A09857FD219290BE00CC9B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09857FB219290BE00CC9B8E /* Main.storyboard */; };
 		A0985809219290BE00CC9B8E /* AkanasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0985808219290BE00CC9B8E /* AkanasTests.swift */; };
 		A0985814219290BE00CC9B8E /* AkanasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0985813219290BE00CC9B8E /* AkanasUITests.swift */; };
+		A098582221929FFE00CC9B8E /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098582121929FFE00CC9B8E /* WindowController.swift */; };
+		A09858252192D52500CC9B8E /* warning1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09858232192D52500CC9B8E /* warning1.mp3 */; };
+		A09858262192D52500CC9B8E /* decision1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09858242192D52500CC9B8E /* decision1.mp3 */; };
+		A09858282192D85000CC9B8E /* cursor1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09858272192D85000CC9B8E /* cursor1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		A098580F219290BE00CC9B8E /* AkanasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkanasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0985813219290BE00CC9B8E /* AkanasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkanasUITests.swift; sourceTree = "<group>"; };
 		A0985815219290BE00CC9B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A098582121929FFE00CC9B8E /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		A09858232192D52500CC9B8E /* warning1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warning1.mp3; sourceTree = "<group>"; };
+		A09858242192D52500CC9B8E /* decision1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = decision1.mp3; sourceTree = "<group>"; };
+		A09858272192D85000CC9B8E /* cursor1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cursor1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 			children = (
 				A09857F2219290BC00CC9B8E /* AppDelegate.swift */,
 				A09857F4219290BC00CC9B8E /* ViewController.swift */,
+				A098582121929FFE00CC9B8E /* WindowController.swift */,
 				A09857F9219290BE00CC9B8E /* Assets.xcassets */,
+				A09858272192D85000CC9B8E /* cursor1.mp3 */,
+				A09858242192D52500CC9B8E /* decision1.mp3 */,
+				A09858232192D52500CC9B8E /* warning1.mp3 */,
 				A09857FB219290BE00CC9B8E /* Main.storyboard */,
 				A09857FE219290BE00CC9B8E /* Info.plist */,
 				A09857FF219290BE00CC9B8E /* Akanas.entitlements */,
@@ -232,6 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09857FA219290BE00CC9B8E /* Assets.xcassets in Resources */,
+				A09858252192D52500CC9B8E /* warning1.mp3 in Resources */,
+				A09858262192D52500CC9B8E /* decision1.mp3 in Resources */,
+				A09858282192D85000CC9B8E /* cursor1.mp3 in Resources */,
 				A09857FD219290BE00CC9B8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09857F5219290BC00CC9B8E /* ViewController.swift in Sources */,
+				A098582221929FFE00CC9B8E /* WindowController.swift in Sources */,
 				A09857F3219290BC00CC9B8E /* AppDelegate.swift in Sources */,
 				A09857F8219290BC00CC9B8E /* Akanas.xcdatamodeld in Sources */,
 			);
@@ -434,7 +450,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.Akanas;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.akanas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -453,7 +470,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.Akanas;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.akanas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
