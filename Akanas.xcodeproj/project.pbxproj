@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09857F3219290BC00CC9B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09857F2219290BC00CC9B8E /* AppDelegate.swift */; };
+		A09857F5219290BC00CC9B8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09857F4219290BC00CC9B8E /* ViewController.swift */; };
+		A09857F8219290BC00CC9B8E /* Akanas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A09857F6219290BC00CC9B8E /* Akanas.xcdatamodeld */; };
+		A09857FA219290BE00CC9B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09857F9219290BE00CC9B8E /* Assets.xcassets */; };
+		A09857FD219290BE00CC9B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09857FB219290BE00CC9B8E /* Main.storyboard */; };
+		A0985809219290BE00CC9B8E /* AkanasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0985808219290BE00CC9B8E /* AkanasTests.swift */; };
+		A0985814219290BE00CC9B8E /* AkanasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0985813219290BE00CC9B8E /* AkanasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0985805219290BE00CC9B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09857E7219290BC00CC9B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09857EE219290BC00CC9B8E;
+			remoteInfo = Akanas;
+		};
+		A0985810219290BE00CC9B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09857E7219290BC00CC9B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09857EE219290BC00CC9B8E;
+			remoteInfo = Akanas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A09857EF219290BC00CC9B8E /* Akanas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akanas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09857F2219290BC00CC9B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A09857F4219290BC00CC9B8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A09857F7219290BC00CC9B8E /* Akanas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Akanas.xcdatamodel; sourceTree = "<group>"; };
+		A09857F9219290BE00CC9B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A09857FC219290BE00CC9B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A09857FE219290BE00CC9B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09857FF219290BE00CC9B8E /* Akanas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Akanas.entitlements; sourceTree = "<group>"; };
+		A0985804219290BE00CC9B8E /* AkanasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkanasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0985808219290BE00CC9B8E /* AkanasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkanasTests.swift; sourceTree = "<group>"; };
+		A098580A219290BE00CC9B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A098580F219290BE00CC9B8E /* AkanasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkanasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0985813219290BE00CC9B8E /* AkanasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkanasUITests.swift; sourceTree = "<group>"; };
+		A0985815219290BE00CC9B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09857EC219290BC00CC9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0985801219290BE00CC9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098580C219290BE00CC9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A09857E6219290BC00CC9B8E = {
+			isa = PBXGroup;
+			children = (
+				A09857F1219290BC00CC9B8E /* Akanas */,
+				A0985807219290BE00CC9B8E /* AkanasTests */,
+				A0985812219290BE00CC9B8E /* AkanasUITests */,
+				A09857F0219290BC00CC9B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A09857F0219290BC00CC9B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09857EF219290BC00CC9B8E /* Akanas.app */,
+				A0985804219290BE00CC9B8E /* AkanasTests.xctest */,
+				A098580F219290BE00CC9B8E /* AkanasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09857F1219290BC00CC9B8E /* Akanas */ = {
+			isa = PBXGroup;
+			children = (
+				A09857F2219290BC00CC9B8E /* AppDelegate.swift */,
+				A09857F4219290BC00CC9B8E /* ViewController.swift */,
+				A09857F9219290BE00CC9B8E /* Assets.xcassets */,
+				A09857FB219290BE00CC9B8E /* Main.storyboard */,
+				A09857FE219290BE00CC9B8E /* Info.plist */,
+				A09857FF219290BE00CC9B8E /* Akanas.entitlements */,
+				A09857F6219290BC00CC9B8E /* Akanas.xcdatamodeld */,
+			);
+			path = Akanas;
+			sourceTree = "<group>";
+		};
+		A0985807219290BE00CC9B8E /* AkanasTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0985808219290BE00CC9B8E /* AkanasTests.swift */,
+				A098580A219290BE00CC9B8E /* Info.plist */,
+			);
+			path = AkanasTests;
+			sourceTree = "<group>";
+		};
+		A0985812219290BE00CC9B8E /* AkanasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0985813219290BE00CC9B8E /* AkanasUITests.swift */,
+				A0985815219290BE00CC9B8E /* Info.plist */,
+			);
+			path = AkanasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09857EE219290BC00CC9B8E /* Akanas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0985818219290BE00CC9B8E /* Build configuration list for PBXNativeTarget "Akanas" */;
+			buildPhases = (
+				A09857EB219290BC00CC9B8E /* Sources */,
+				A09857EC219290BC00CC9B8E /* Frameworks */,
+				A09857ED219290BC00CC9B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Akanas;
+			productName = Akanas;
+			productReference = A09857EF219290BC00CC9B8E /* Akanas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0985803219290BE00CC9B8E /* AkanasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A098581B219290BE00CC9B8E /* Build configuration list for PBXNativeTarget "AkanasTests" */;
+			buildPhases = (
+				A0985800219290BE00CC9B8E /* Sources */,
+				A0985801219290BE00CC9B8E /* Frameworks */,
+				A0985802219290BE00CC9B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0985806219290BE00CC9B8E /* PBXTargetDependency */,
+			);
+			name = AkanasTests;
+			productName = AkanasTests;
+			productReference = A0985804219290BE00CC9B8E /* AkanasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A098580E219290BE00CC9B8E /* AkanasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A098581E219290BE00CC9B8E /* Build configuration list for PBXNativeTarget "AkanasUITests" */;
+			buildPhases = (
+				A098580B219290BE00CC9B8E /* Sources */,
+				A098580C219290BE00CC9B8E /* Frameworks */,
+				A098580D219290BE00CC9B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0985811219290BE00CC9B8E /* PBXTargetDependency */,
+			);
+			name = AkanasUITests;
+			productName = AkanasUITests;
+			productReference = A098580F219290BE00CC9B8E /* AkanasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09857E7219290BC00CC9B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "鵜巷";
+				TargetAttributes = {
+					A09857EE219290BC00CC9B8E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A0985803219290BE00CC9B8E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A09857EE219290BC00CC9B8E;
+					};
+					A098580E219290BE00CC9B8E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A09857EE219290BC00CC9B8E;
+					};
+				};
+			};
+			buildConfigurationList = A09857EA219290BC00CC9B8E /* Build configuration list for PBXProject "Akanas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09857E6219290BC00CC9B8E;
+			productRefGroup = A09857F0219290BC00CC9B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09857EE219290BC00CC9B8E /* Akanas */,
+				A0985803219290BE00CC9B8E /* AkanasTests */,
+				A098580E219290BE00CC9B8E /* AkanasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09857ED219290BC00CC9B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09857FA219290BE00CC9B8E /* Assets.xcassets in Resources */,
+				A09857FD219290BE00CC9B8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0985802219290BE00CC9B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098580D219290BE00CC9B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09857EB219290BC00CC9B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09857F5219290BC00CC9B8E /* ViewController.swift in Sources */,
+				A09857F3219290BC00CC9B8E /* AppDelegate.swift in Sources */,
+				A09857F8219290BC00CC9B8E /* Akanas.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0985800219290BE00CC9B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0985809219290BE00CC9B8E /* AkanasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098580B219290BE00CC9B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0985814219290BE00CC9B8E /* AkanasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0985806219290BE00CC9B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09857EE219290BC00CC9B8E /* Akanas */;
+			targetProxy = A0985805219290BE00CC9B8E /* PBXContainerItemProxy */;
+		};
+		A0985811219290BE00CC9B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09857EE219290BC00CC9B8E /* Akanas */;
+			targetProxy = A0985810219290BE00CC9B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09857FB219290BE00CC9B8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09857FC219290BE00CC9B8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0985816219290BE00CC9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0985817219290BE00CC9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A0985819219290BE00CC9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Akanas/Akanas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7R6KMFFF6;
+				INFOPLIST_FILE = Akanas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.Akanas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		A098581A219290BE00CC9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Akanas/Akanas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7R6KMFFF6;
+				INFOPLIST_FILE = Akanas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.Akanas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		A098581C219290BE00CC9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7R6KMFFF6;
+				INFOPLIST_FILE = AkanasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.AkanasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akanas.app/Contents/MacOS/Akanas";
+			};
+			name = Debug;
+		};
+		A098581D219290BE00CC9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7R6KMFFF6;
+				INFOPLIST_FILE = AkanasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.AkanasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akanas.app/Contents/MacOS/Akanas";
+			};
+			name = Release;
+		};
+		A098581F219290BE00CC9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7R6KMFFF6;
+				INFOPLIST_FILE = AkanasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.AkanasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Akanas;
+			};
+			name = Debug;
+		};
+		A0985820219290BE00CC9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7R6KMFFF6;
+				INFOPLIST_FILE = AkanasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chimata.AkanasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Akanas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09857EA219290BC00CC9B8E /* Build configuration list for PBXProject "Akanas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0985816219290BE00CC9B8E /* Debug */,
+				A0985817219290BE00CC9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0985818219290BE00CC9B8E /* Build configuration list for PBXNativeTarget "Akanas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0985819219290BE00CC9B8E /* Debug */,
+				A098581A219290BE00CC9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098581B219290BE00CC9B8E /* Build configuration list for PBXNativeTarget "AkanasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098581C219290BE00CC9B8E /* Debug */,
+				A098581D219290BE00CC9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098581E219290BE00CC9B8E /* Build configuration list for PBXNativeTarget "AkanasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098581F219290BE00CC9B8E /* Debug */,
+				A0985820219290BE00CC9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A09857F6219290BC00CC9B8E /* Akanas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A09857F7219290BC00CC9B8E /* Akanas.xcdatamodel */,
+			);
+			currentVersion = A09857F7219290BC00CC9B8E /* Akanas.xcdatamodel */;
+			path = Akanas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A09857E7219290BC00CC9B8E /* Project object */;
+}
